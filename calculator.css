@@ -1,0 +1,123 @@
+  
+body {
+    margin: 0;  
+    font-family: 'Courier New', Courier, monospace; 
+}
+html, body { height: 100% }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+  
+body {
+width: 100%;
+height: 100%;
+margin:0px;
+position: absolute;
+display:flex;
+flex-flow: column nowrap;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+form{
+    top:10vh;
+    height: 90%;
+    width:100%;
+    font-family: "Snap ITC",sans-serif;
+    margin:0px;
+    background-color: white;
+    position:absolute;
+    display:flex;
+    flex-flow:column nowrap;
+    align-items:center;
+    justify-content: center;
+
+    }
+    
+h1{  position: absolute;
+    text-align: center;
+    color:white;
+    font-family: 'Knewave', cursive;
+   background-color:black;
+   width: 100%;
+   height:10%;
+   font-size: 7vh;
+}
+
+
+
+.oldtext{
+
+width:100vw;
+    font-style: bold;
+    font-family: 'Knewave', cursive;   
+    height:10vh;
+    text-align: right;
+    font-size: 5vh;
+  margin:0px;
+  font-size: auto;
+}
+.textview{
+    direction:ltr;
+    font-style: bold;
+    font-family: 'Macondo', cursive;
+  width:100vw;
+   font-size: 10vh;
+    text-align: center;
+    margin:0px;
+    height:15vh;
+  
+}
+
+.buttons{
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://raw.githubusercontent.com/swizel012/css-images/master/26576728-numbers-background.jpg);
+    width:100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr;
+  grid-gap:3vh;
+  background-color:black;
+  text-align: center;
+  margin:0px;
+  height: 65vh;
+  
+}
+
+
+
+.numbers{
+    font-size:4vh;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    background-color:darkgray;
+    border-radius: 10mm;
+    height:7vh;
+    width:7vh;
+    text-align: center;
+
+}
+.operators{
+    height:10vh;
+    width:10vh;
+    font-size:4vh;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    border-radius: 15mm;
+    text-align: center;
+    background-color:ghostwhite;
+
+}
+.clear{  text-align: center;
+    font-size:4vh;
+    font-style: bold;
+    font-family: 'Freckle Face', cursive;
+    border-radius: 10mm;
+    height:10vh;
+    width:10vh;
+    background-color:grey;
+    text-align: center;
+}
